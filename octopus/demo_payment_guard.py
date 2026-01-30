@@ -34,7 +34,7 @@ try:
 except ImportError:
     _RICH = False
 
-DEFAULT_TOGETHER_API_KEY = "b7245f997cdb46e155f0ff8dd1cdd89fff5707109e6c2d84b4b5fb1c01f60f76"
+DEFAULT_TOGETHER_API_KEY = ""
 
 from octopus.payment_guard_system import PaymentGuardSystem
 from octopus import report_ui
