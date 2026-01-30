@@ -1,0 +1,33 @@
+# Octopus: Multi-Domain Adaptive Data Generation System
+# Requirements for Octopus Hackathon 2026
+
+# Core dependencies
+pandas>=1.5.0
+numpy>=1.21.0
+scikit-learn>=1.0.0
+
+# LLM API access
+openai>=1.0.0
+
+# Optional: LangChain for structured output (if available)
+# langchain>=0.1.0
+# langchain-core>=0.1.0
+
+# Logging and utilities
+tqdm>=4.64.0
+rich>=13.0.0
+
+# Visualization (for distribution plot)
+matplotlib>=3.5.0
+
+# Fraud Detection web app
+flask>=2.0.0
+joblib>=1.0.0
+
+# For parallel execution
+# (concurrent.futures is built-in to Python 3.2+)
+
+# Development dependencies (optional)
+# pytest>=7.0.0
+# black>=22.0.0
+# flake8>=5.0.0

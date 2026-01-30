@@ -1,0 +1,7 @@
+data/creditcard.csv
+data/last_original.csv
+data/last_synthetic.csv
+__pycache__/
+*.pyc
+.pytest_cache/
+*.joblib
