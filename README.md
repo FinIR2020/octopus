@@ -24,7 +24,7 @@ Multi-agent system for PCI-DSS safe synthetic payment data and fraud detection.
 From project root:
 
 - **Windows:** `python octopus\run_payment_guard.py --fast`
-- **macOS / Linux:** `python3 octopus/run_payment_guard.py --fast`
+- **macOS / Linux:** `python octopus/run_payment_guard.py --fast`
 
 Opens `octopus/paymentguard_report.html` after run. See **RUN_DEMO.md** for details.
 
