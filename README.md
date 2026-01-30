@@ -26,7 +26,7 @@ From project root:
 - **Windows:** `python octopus\run_payment_guard.py --fast`
 - **macOS / Linux:** `python octopus/run_payment_guard.py --fast`
 
-Opens `octopus/paymentguard_report.html` after run. See **RUN_DEMO.md** for details. please make sure that you have the togetherai key in environment.
+Opens `octopus/paymentguard_report.html` after run. See **RUN_DEMO.md** for details. please make sure that you need to fill a togetherai api key in the demo_payment_guard.DEFAULT_TOGETHER_API_KEY
 
 ---
 
