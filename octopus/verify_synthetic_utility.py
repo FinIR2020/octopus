@@ -143,7 +143,7 @@ def run_verification(
             from octopus.payment_guard_system import PaymentGuardSystem
             api_key = os.environ.get("TOGETHER_API_KEY", "").strip()
             if not api_key:
-                api_key = "b7245f997cdb46e155f0ff8dd1cdd89fff5707109e6c2d84b4b5fb1c01f60f76"
+                api_key = ""
             system = PaymentGuardSystem(api_config={"api_key": api_key, "api_base": "https://api.together.xyz/v1"}, privacy_level="high")
             res = system.generate_payment_synthetic_data(
                 dataset="verify", X_train=source_for_synthetic, domain="financial",
